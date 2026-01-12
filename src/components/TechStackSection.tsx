@@ -54,7 +54,7 @@ interface TechCardProps {
 
 function TechCard({ logo, title }: TechCardProps) {
 	return (
-		<li className="bg-card-light dark:bg-card-dark text-card-foreground-light dark:text-card-foreground-dark border-border-light dark:border-border-dark group grid items-end justify-items-center gap-1 rounded-lg border p-4 text-center">
+		<li className="hover:bg-muted-light dark:hover:bg-muted-dark bg-card-light dark:bg-card-dark text-card-foreground-light dark:text-card-foreground-dark border-border-light dark:border-border-dark group grid items-end justify-items-center gap-1 rounded-lg border p-4 text-center">
 			<div className="transition-transform group-hover:-translate-y-1">
 				{logo}
 			</div>
