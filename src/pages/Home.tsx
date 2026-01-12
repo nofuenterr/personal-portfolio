@@ -5,11 +5,11 @@ import TechStack from '../components/TechStackSection';
 
 export default function Home() {
 	return (
-		<div>
+		<main className="grid gap-8">
 			<Hero />
 			<TechStack />
 			<FeaturedProjects />
 			<Contact />
-		</div>
+		</main>
 	);
 }
