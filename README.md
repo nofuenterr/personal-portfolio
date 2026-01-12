@@ -11,10 +11,10 @@ My Personal Portfolio that features information about me, my tech stack, persona
 - React + Vite
 - Tailwind CSS (styling)
 - Typescript (types)
-<!-- - React Hook Form (form state and validation) -->
-<!-- - React Router (navigation) -->
-<!-- - Radix UI (accessible and unstyled ui assets) -->
-<!-- - Zustand (global state and data persistence) -->
+  <!-- - React Hook Form (form state and validation) -->
+  <!-- - React Router (navigation) -->
+  <!-- - Radix UI (accessible and unstyled ui assets) -->
+  <!-- - Zustand (global state and data persistence) -->
 
 ### Getting Started
 
