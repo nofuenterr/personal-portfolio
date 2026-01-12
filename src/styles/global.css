@@ -37,6 +37,8 @@
 } */
 
 body {
-	min-height: 100dvh;
 	position: relative;
+	min-height: 100dvh;
+	max-width: 48rem;
+	margin: 0 auto;
 }
