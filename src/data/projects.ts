@@ -2,6 +2,10 @@ import personalFinanceAppLaptopImage from '../assets/images/personal-finance-app
 import summonersShopLaptopImage from '../assets/images/summoners-shop-laptop.png';
 import invoiceAppDarkLaptopImage from '../assets/images/invoice-app-dark-laptop.png';
 import weatherAppDarkLaptopImage from '../assets/images/weather-app-dark-laptop.png';
+import multiStepFormLaptopImage from '../assets/images/multi-step-form-laptop.png';
+import memoryCardGameLaptopImage from '../assets/images/memory-card-game-laptop.png';
+import cvApplicationLaptopImage from '../assets/images/cv-application-laptop.png';
+import todoAppDarkLaptopImage from '../assets/images/todo-app-dark-laptop.png';
 
 interface Project {
 	imageSrc: string;
@@ -76,5 +80,61 @@ export const projects: Project[] = [
 		techStack: ['HTML', 'CSS', 'JavaScript', 'Webpack', 'API'],
 		livePreviewLink: 'https://weather-app-five-eta-68.vercel.app/',
 		githubLink: 'https://github.com/nofuenterr/weather-app',
+	},
+	{
+		imageSrc: multiStepFormLaptopImage,
+		title: 'Multi-step Form',
+		description:
+			'A multi-step form with persistent data on submit, validation on change, links to each step, and responsiveness.',
+		techStack: [
+			'React',
+			'Vite',
+			'Tailwind CSS',
+			'JavaScript',
+			'TypeScript',
+			'Zustand',
+			'React Router',
+			'React Hook Form',
+			'Radix UI',
+		],
+		livePreviewLink: 'https://multi-step-form-theta-sooty.vercel.app/',
+		githubLink: 'https://github.com/nofuenterr/multi-step-form',
+	},
+	{
+		imageSrc: memoryCardGameLaptopImage,
+		title: 'GOT - Memory Card Game',
+		description:
+			'A memory card game with multiple levels that features characters from the show Game of Thrones.',
+		techStack: ['React', 'Vite', 'CSS', 'JavaScript', 'HTML'],
+		livePreviewLink: 'https://memory-card-game-umber-alpha.vercel.app/',
+		githubLink: 'https://github.com/nofuenterr/memory-card-game',
+	},
+	{
+		imageSrc: cvApplicationLaptopImage,
+		title: 'CV Application',
+		description:
+			'A simple website that allows you to enter CV-related information and preview it on a pre-determined template live.',
+		techStack: ['React', 'Vite', 'CSS', 'JavaScript', 'HTML'],
+		livePreviewLink: 'https://cv-application-seven-nu.vercel.app/',
+		githubLink: 'https://github.com/nofuenterr/cv-application',
+	},
+	{
+		imageSrc: todoAppDarkLaptopImage,
+		title: 'Todo App',
+		description:
+			'A simple todo app that lets you create, read, toggle between done and not done, and delete todos.',
+		techStack: [
+			'React',
+			'Vite',
+			'Tailwind CSS',
+			'JavaScript',
+			'TypeScript',
+			'Zustand',
+			'React Hook Form',
+			'Radix UI',
+			'HTML',
+		],
+		livePreviewLink: 'https://todo-app-five-jade-30.vercel.app/',
+		githubLink: 'https://github.com/nofuenterr/todo-app',
 	},
 ];
