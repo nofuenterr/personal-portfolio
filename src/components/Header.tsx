@@ -2,9 +2,29 @@ import { NavLink, Link } from 'react-router-dom';
 import { useThemeStore } from '../stores/themeStore';
 import Sun from './icons/Sun';
 import Moon from './icons/Moon';
+import { motion } from 'framer-motion';
 
 export default function Header() {
 	const { dark, switchTheme } = useThemeStore();
+
+	const moonVariants = {
+		hidden: {
+			scale: 0,
+			opacity: 0,
+			transition: {
+				duration: 0.6,
+				ease: 'easeOut' as const,
+			},
+		},
+		visible: {
+			scale: 1,
+			opacity: 1,
+			transition: {
+				duration: 0.6,
+				ease: 'easeOut' as const,
+			},
+		},
+	};
 
 	return (
 		<header className="mb-10 flex items-center justify-between gap-4">
@@ -29,17 +49,25 @@ export default function Header() {
 
 				<button
 					onClick={() => switchTheme()}
-					className="cursor-pointer transition-transform"
+					className="relative cursor-pointer transition-transform"
 				>
-					{dark ? (
-						<p>
-							<Moon className="hover:scale-110" />
-						</p>
-					) : (
-						<p>
-							<Sun className="hover:scale-110" />
-						</p>
-					)}
+					<motion.p
+						variants={moonVariants}
+						initial={dark ? 'visible' : 'hidden'}
+						animate={dark ? 'visible' : 'hidden'}
+						className="absolute"
+					>
+						<Moon className="hover:scale-110" />
+					</motion.p>
+
+					<motion.p
+						variants={moonVariants}
+						initial={dark ? 'hidden' : 'visible'}
+						animate={dark ? 'hidden' : 'visible'}
+						className="relative"
+					>
+						<Sun className="hover:scale-110" />
+					</motion.p>
 				</button>
 			</div>
 		</header>
