@@ -19,7 +19,7 @@ export default function ProjectCard({
 	githubLink,
 }: ProjectCardProps) {
 	return (
-		<li className="bg-card-light dark:bg-card-dark text-card-foreground-light dark:text-card-foreground-dark border-border-light dark:border-border-dark group grid grid-rows-[auto_auto_1fr_1fr_auto] items-start gap-3 rounded-lg border p-4">
+		<li className="bg-card-light dark:bg-card-dark text-card-foreground-light dark:text-card-foreground-dark border-border-light dark:border-border-dark group row-span-5 grid grid-rows-subgrid items-start gap-3 rounded-lg border p-4">
 			<div className="border-border-light dark:border-border-dark h-40 w-full cursor-pointer overflow-hidden rounded-lg border">
 				<img
 					src={imageSrc}
