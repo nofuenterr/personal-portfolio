@@ -1,12 +1,12 @@
-import personalFinanceAppLaptopImage from '../assets/images/personal-finance-app-laptop.png';
-import summonersShopLaptopImage from '../assets/images/summoners-shop-laptop.png';
-import invoiceAppDarkLaptopImage from '../assets/images/invoice-app-dark-laptop.png';
-import weatherAppDarkLaptopImage from '../assets/images/weather-app-dark-laptop.png';
-import multiStepFormLaptopImage from '../assets/images/multi-step-form-laptop.png';
-import memoryCardGameLaptopImage from '../assets/images/memory-card-game-laptop.png';
-import cvApplicationLaptopImage from '../assets/images/cv-application-laptop.png';
-import todoAppDarkLaptopImage from '../assets/images/todo-app-dark-laptop.png';
-import weatherNowLaptopImage from '../assets/images/weather-now-laptop.png';
+import personalFinanceAppLaptopImage from '../assets/images/personal-finance-app-laptop.webp';
+import summonersShopLaptopImage from '../assets/images/summoners-shop-laptop.webp';
+import invoiceAppDarkLaptopImage from '../assets/images/invoice-app-dark-laptop.webp';
+import weatherAppDarkLaptopImage from '../assets/images/weather-app-dark-laptop.webp';
+import multiStepFormLaptopImage from '../assets/images/multi-step-form-laptop.webp';
+import memoryCardGameLaptopImage from '../assets/images/memory-card-game-laptop.webp';
+import cvApplicationLaptopImage from '../assets/images/cv-application-laptop.webp';
+import todoAppDarkLaptopImage from '../assets/images/todo-app-dark-laptop.webp';
+import weatherNowLaptopImage from '../assets/images/weather-now-laptop.webp';
 
 interface Project {
 	imageSrc: string;
