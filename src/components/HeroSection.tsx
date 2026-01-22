@@ -42,6 +42,7 @@ export default function Hero() {
 				<ul className="flex items-center justify-center gap-2 sm:justify-start">
 					<li>
 						<a
+							aria-label='LinkedIn'
 							target="_blank"
 							rel="noopener noreferrer"
 							href="https://www.linkedin.com/in/romel-raphael-nofuente-536207371?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
@@ -51,6 +52,7 @@ export default function Hero() {
 					</li>
 					<li>
 						<a
+							aria-label='Github'
 							target="_blank"
 							rel="noopener noreferrer"
 							href="https://github.com/nofuenterr"
@@ -59,7 +61,7 @@ export default function Hero() {
 						</a>
 					</li>
 					<li>
-						<a href="mailto:rrn091301@gmail.com">
+						<a aria-label='Send gmail' href="mailto:rrn091301@gmail.com">
 							<Mail className="stroke-foreground-light dark:stroke-foreground-dark h-6 w-auto hover:stroke-[#ea580c] dark:hover:stroke-[#fdba74]" />
 						</a>
 					</li>
