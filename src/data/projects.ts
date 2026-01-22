@@ -6,6 +6,7 @@ import multiStepFormLaptopImage from '../assets/images/multi-step-form-laptop.pn
 import memoryCardGameLaptopImage from '../assets/images/memory-card-game-laptop.png';
 import cvApplicationLaptopImage from '../assets/images/cv-application-laptop.png';
 import todoAppDarkLaptopImage from '../assets/images/todo-app-dark-laptop.png';
+import weatherNowLaptopImage from '../assets/images/weather-now-laptop.png';
 
 interface Project {
 	imageSrc: string;
@@ -73,13 +74,23 @@ export const projects: Project[] = [
 		githubLink: 'https://github.com/nofuenterr/invoice-app',
 	},
 	{
-		imageSrc: weatherAppDarkLaptopImage,
-		title: 'Forecaster Weather App',
+		imageSrc: weatherNowLaptopImage,
+		title: 'Weather Now - Weather App',
 		description:
-			'A weather app that uses the Visual Crossing API. It features toggles between themes and units of measurement.',
-		techStack: ['HTML', 'CSS', 'JavaScript', 'Webpack', 'API'],
-		livePreviewLink: 'https://weather-app-five-eta-68.vercel.app/',
-		githubLink: 'https://github.com/nofuenterr/weather-app',
+			'A responsive weather app with search functionality, unit conversion, and detailed forecasts using the Open-Meteo API.',
+		techStack: [
+			'React',
+			'Vite',
+			'Tailwind CSS',
+			'TypeScript',
+			'Zustand',
+			'React Hook Form',
+			'React Query',
+			'API',
+			'Radix UI',
+		],
+		livePreviewLink: 'https://weather-now-rrn.vercel.app/',
+		githubLink: 'https://github.com/nofuenterr/weather-now',
 	},
 	{
 		imageSrc: multiStepFormLaptopImage,
@@ -105,7 +116,7 @@ export const projects: Project[] = [
 		title: 'GOT - Memory Card Game',
 		description:
 			'A memory card game with multiple levels that features characters from the show Game of Thrones.',
-		techStack: ['React', 'Vite', 'CSS', 'JavaScript', 'HTML'],
+		techStack: ['React', 'Vite', 'CSS', 'JavaScript', 'HTML', 'API'],
 		livePreviewLink: 'https://memory-card-game-umber-alpha.vercel.app/',
 		githubLink: 'https://github.com/nofuenterr/memory-card-game',
 	},
@@ -117,6 +128,15 @@ export const projects: Project[] = [
 		techStack: ['React', 'Vite', 'CSS', 'JavaScript', 'HTML'],
 		livePreviewLink: 'https://cv-application-seven-nu.vercel.app/',
 		githubLink: 'https://github.com/nofuenterr/cv-application',
+	},
+	{
+		imageSrc: weatherAppDarkLaptopImage,
+		title: 'Forecaster - Weather App',
+		description:
+			'A weather app that uses the Visual Crossing API. It features toggles between themes and units of measurement.',
+		techStack: ['HTML', 'CSS', 'JavaScript', 'Webpack', 'API'],
+		livePreviewLink: 'https://weather-app-five-eta-68.vercel.app/',
+		githubLink: 'https://github.com/nofuenterr/weather-app',
 	},
 	{
 		imageSrc: todoAppDarkLaptopImage,
