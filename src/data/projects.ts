@@ -8,8 +8,14 @@ import cvApplicationLaptopImage from '../assets/images/cv-application-laptop.web
 import todoAppDarkLaptopImage from '../assets/images/todo-app-dark-laptop.webp';
 import weatherNowLaptopImage from '../assets/images/weather-now-laptop.webp';
 
-interface Project {
-	imageSrc: string;
+interface Image {
+	src: string;
+	width: number;
+	height: number;
+}
+
+export interface Project {
+	image: Image;
 	title: string;
 	description: string;
 	techStack: string[];
@@ -19,7 +25,11 @@ interface Project {
 
 export const projects: Project[] = [
 	{
-		imageSrc: personalFinanceAppLaptopImage,
+		image: {
+			src: personalFinanceAppLaptopImage,
+			width: 1280,
+			height: 1086,
+		},
 		title: 'Personal Finance App',
 		description:
 			'A personal finance application built to help users track spending, manage savings, and stay on top of recurring bills. ',
@@ -38,7 +48,11 @@ export const projects: Project[] = [
 		githubLink: 'https://github.com/nofuenterr/personal-finance-app',
 	},
 	{
-		imageSrc: summonersShopLaptopImage,
+		image: {
+			src: summonersShopLaptopImage,
+			width: 1280,
+			height: 1086,
+		},
 		title: "Summoner's Shop",
 		description:
 			"An E-commerce website inspired by Riot Game's League of Legends. The products are based on the game's in-game items.",
@@ -55,7 +69,11 @@ export const projects: Project[] = [
 		githubLink: 'https://github.com/nofuenterr/league-of-legends-item-shop',
 	},
 	{
-		imageSrc: invoiceAppDarkLaptopImage,
+		image: {
+			src: invoiceAppDarkLaptopImage,
+			width: 1280,
+			height: 1085,
+		},
 		title: 'Invoice App',
 		description:
 			'An invoice management application where users can create, edit, view, and manage invoices.',
@@ -74,7 +92,11 @@ export const projects: Project[] = [
 		githubLink: 'https://github.com/nofuenterr/invoice-app',
 	},
 	{
-		imageSrc: weatherNowLaptopImage,
+		image: {
+			src: weatherNowLaptopImage,
+			width: 1280,
+			height: 1000,
+		},
 		title: 'Weather Now - Weather App',
 		description:
 			'A responsive weather app with search functionality, unit conversion, and detailed forecasts using the Open-Meteo API.',
@@ -93,7 +115,11 @@ export const projects: Project[] = [
 		githubLink: 'https://github.com/nofuenterr/weather-now',
 	},
 	{
-		imageSrc: multiStepFormLaptopImage,
+		image: {
+			src: multiStepFormLaptopImage,
+			width: 1280,
+			height: 1000,
+		},
 		title: 'Multi-step Form',
 		description:
 			'A multi-step form with persistent data on submit, validation on change, links to each step, and responsiveness.',
@@ -112,7 +138,11 @@ export const projects: Project[] = [
 		githubLink: 'https://github.com/nofuenterr/multi-step-form',
 	},
 	{
-		imageSrc: memoryCardGameLaptopImage,
+		image: {
+			src: memoryCardGameLaptopImage,
+			width: 1280,
+			height: 1000,
+		},
 		title: 'GOT - Memory Card Game',
 		description:
 			'A memory card game with multiple levels that features characters from the show Game of Thrones.',
@@ -121,7 +151,11 @@ export const projects: Project[] = [
 		githubLink: 'https://github.com/nofuenterr/memory-card-game',
 	},
 	{
-		imageSrc: cvApplicationLaptopImage,
+		image: {
+			src: cvApplicationLaptopImage,
+			width: 1280,
+			height: 1000,
+		},
 		title: 'CV Application',
 		description:
 			'A simple website that allows you to enter CV-related information and preview it on a pre-determined template live.',
@@ -130,7 +164,11 @@ export const projects: Project[] = [
 		githubLink: 'https://github.com/nofuenterr/cv-application',
 	},
 	{
-		imageSrc: weatherAppDarkLaptopImage,
+		image: {
+			src: weatherAppDarkLaptopImage,
+			width: 1280,
+			height: 1085,
+		},
 		title: 'Forecaster - Weather App',
 		description:
 			'A weather app that uses the Visual Crossing API. It features toggles between themes and units of measurement.',
@@ -139,7 +177,11 @@ export const projects: Project[] = [
 		githubLink: 'https://github.com/nofuenterr/weather-app',
 	},
 	{
-		imageSrc: todoAppDarkLaptopImage,
+		image: {
+			src: todoAppDarkLaptopImage,
+			width: 4096,
+			height: 3200,
+		},
 		title: 'Todo App',
 		description:
 			'A simple todo app that lets you create, read, toggle between done and not done, and delete todos.',

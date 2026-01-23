@@ -23,7 +23,7 @@ export default function FeaturedProjects() {
 					return (
 						<ProjectCard
 							key={p.title}
-							imageSrc={p.imageSrc}
+							image={p.image}
 							title={p.title}
 							description={p.description}
 							techStack={p.techStack}

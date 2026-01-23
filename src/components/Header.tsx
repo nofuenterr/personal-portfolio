@@ -3,8 +3,7 @@ import { useThemeStore } from '../stores/themeStore';
 import Sun from './icons/Sun';
 import Moon from './icons/Moon';
 import { motion } from 'framer-motion';
-import { AccessibleIcon } from "radix-ui";
-
+import { AccessibleIcon } from 'radix-ui';
 
 export default function Header() {
 	const { dark, switchTheme } = useThemeStore();
@@ -59,7 +58,7 @@ export default function Header() {
 						animate={dark ? 'visible' : 'hidden'}
 						className="absolute"
 					>
-						<AccessibleIcon.Root label='Switch to light mode'>
+						<AccessibleIcon.Root label="Switch to light mode">
 							<Moon className="hover:scale-110" />
 						</AccessibleIcon.Root>
 					</motion.p>
@@ -70,7 +69,7 @@ export default function Header() {
 						animate={dark ? 'hidden' : 'visible'}
 						className="relative"
 					>
-						<AccessibleIcon.Root label='Switch to dark mode'>
+						<AccessibleIcon.Root label="Switch to dark mode">
 							<Sun className="hover:scale-110" />
 						</AccessibleIcon.Root>
 					</motion.p>

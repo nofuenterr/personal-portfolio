@@ -1,29 +1,24 @@
 import Globe from './icons/Globe';
 import GitHub from './icons/GitHub';
-
-interface ProjectCardProps {
-	imageSrc: string;
-	title: string;
-	description: string;
-	techStack: string[];
-	livePreviewLink: string;
-	githubLink: string;
-}
+import type { Project } from '../data/projects';
 
 export default function ProjectCard({
-	imageSrc,
+	image,
 	title,
 	description,
 	techStack,
 	livePreviewLink,
 	githubLink,
-}: ProjectCardProps) {
+}: Project) {
 	return (
 		<li className="bg-card-light dark:bg-card-dark text-card-foreground-light dark:text-card-foreground-dark border-border-light dark:border-border-dark group row-span-5 grid grid-rows-subgrid items-start gap-3 rounded-lg border p-4">
 			<div className="border-border-light dark:border-border-dark h-40 w-full cursor-pointer overflow-hidden rounded-lg border">
 				<img
-					src={imageSrc}
-					alt={`${title} image`}
+					loading="lazy"
+					width={image.width}
+					height={image.height}
+					src={image.src}
+					alt={`${title} preview`}
 					className="transition-transform hover:scale-110"
 				/>
 			</div>
