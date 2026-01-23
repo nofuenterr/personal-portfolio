@@ -1,7 +1,7 @@
 import GitHub from './icons/GitHub';
 import LinkedIn from './icons/LinkedIn';
 import { Avatar } from 'radix-ui';
-import avatar from '../assets/images/avatar.webp';
+import avatar from '/avatar.webp';
 import MapPin from './icons/MapPin';
 import Mail from './icons/Mail';
 
