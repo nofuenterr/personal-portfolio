@@ -19,7 +19,7 @@ export default function FeaturedProjects() {
 				</Link>
 			</div>
 			<ul className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-				{projects.slice(0, 4).map((p) => {
+				{projects.slice(0, 6).map((p) => {
 					return (
 						<ProjectCard
 							key={p.title}
