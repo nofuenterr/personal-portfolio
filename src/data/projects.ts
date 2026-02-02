@@ -7,6 +7,7 @@ import memoryCardGameLaptopImage from '../assets/images/memory-card-game-laptop.
 import cvApplicationLaptopImage from '../assets/images/cv-application-laptop.webp';
 import todoAppDarkLaptopImage from '../assets/images/todo-app-dark-laptop.webp';
 import weatherNowLaptopImage from '../assets/images/weather-now-laptop.webp';
+import audiophileLaptopImage from '../assets/images/audiophile-laptop.webp';
 
 interface Image {
 	src: string;
@@ -26,13 +27,35 @@ export interface Project {
 export const projects: Project[] = [
 	{
 		image: {
+			src: audiophileLaptopImage,
+			width: 1280,
+			height: 1000,
+		},
+		title: 'Audiophile E-Commerce App',
+		description:
+			'A multi-page e-commerce website and an all-in-one stop featuring products that fulfills your audio needs.',
+		techStack: [
+			'React',
+			'Vite',
+			'Tailwind CSS',
+			'TypeScript',
+			'Zustand',
+			'React Router',
+			'React Hook Form',
+			'Radix UI',
+		],
+		livePreviewLink: 'https://audiophile-rrn.vercel.app/',
+		githubLink: 'https://github.com/nofuenterr/audiophile',
+	},
+	{
+		image: {
 			src: personalFinanceAppLaptopImage,
 			width: 1280,
 			height: 1086,
 		},
 		title: 'Personal Finance App',
 		description:
-			'A personal finance application built to help users track spending, manage savings, and stay on top of recurring bills. ',
+			'A personal finance application built to help users track spending, manage savings, and stay on top of recurring bills.',
 		techStack: [
 			'React',
 			'Vite',
@@ -46,27 +69,6 @@ export const projects: Project[] = [
 		],
 		livePreviewLink: 'https://personal-finance-app-rrn.vercel.app/',
 		githubLink: 'https://github.com/nofuenterr/personal-finance-app',
-	},
-	{
-		image: {
-			src: summonersShopLaptopImage,
-			width: 1280,
-			height: 1086,
-		},
-		title: "Summoner's Shop",
-		description:
-			"An E-commerce website inspired by Riot Game's League of Legends. The products are based on the game's in-game items.",
-		techStack: [
-			'React',
-			'Vite',
-			'CSS Modules',
-			'JavaScript',
-			'React Router',
-			'HTML',
-			'API',
-		],
-		livePreviewLink: 'https://summoners-shop.vercel.app/',
-		githubLink: 'https://github.com/nofuenterr/league-of-legends-item-shop',
 	},
 	{
 		image: {
@@ -116,6 +118,40 @@ export const projects: Project[] = [
 	},
 	{
 		image: {
+			src: summonersShopLaptopImage,
+			width: 1280,
+			height: 1086,
+		},
+		title: "Summoner's Shop E-Commerce App",
+		description:
+			"An E-commerce website inspired by Riot Game's League of Legends. The products are based on the game's in-game items.",
+		techStack: [
+			'React',
+			'Vite',
+			'CSS Modules',
+			'JavaScript',
+			'React Router',
+			'HTML',
+			'API',
+		],
+		livePreviewLink: 'https://summoners-shop.vercel.app/',
+		githubLink: 'https://github.com/nofuenterr/league-of-legends-item-shop',
+	},
+	{
+		image: {
+			src: memoryCardGameLaptopImage,
+			width: 1280,
+			height: 1000,
+		},
+		title: 'GOT - Memory Card Game',
+		description:
+			'A memory card game with multiple levels that features characters from the show Game of Thrones.',
+		techStack: ['React', 'Vite', 'CSS', 'JavaScript', 'HTML', 'API'],
+		livePreviewLink: 'https://memory-card-game-umber-alpha.vercel.app/',
+		githubLink: 'https://github.com/nofuenterr/memory-card-game',
+	},
+	{
+		image: {
 			src: multiStepFormLaptopImage,
 			width: 1280,
 			height: 1000,
@@ -136,19 +172,6 @@ export const projects: Project[] = [
 		],
 		livePreviewLink: 'https://multi-step-form-theta-sooty.vercel.app/',
 		githubLink: 'https://github.com/nofuenterr/multi-step-form',
-	},
-	{
-		image: {
-			src: memoryCardGameLaptopImage,
-			width: 1280,
-			height: 1000,
-		},
-		title: 'GOT - Memory Card Game',
-		description:
-			'A memory card game with multiple levels that features characters from the show Game of Thrones.',
-		techStack: ['React', 'Vite', 'CSS', 'JavaScript', 'HTML', 'API'],
-		livePreviewLink: 'https://memory-card-game-umber-alpha.vercel.app/',
-		githubLink: 'https://github.com/nofuenterr/memory-card-game',
 	},
 	{
 		image: {
