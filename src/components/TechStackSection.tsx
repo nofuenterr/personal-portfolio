@@ -16,7 +16,7 @@ export default function TechStack() {
 			<h2 className="bg-muted-light border-border-light dark:border-border-dark dark:bg-muted-dark inline-block justify-self-start rounded-lg border p-2">
 				Tech stack
 			</h2>
-			<ul className="grid grid-cols-[repeat(auto-fit,minmax(2rem,1fr))] gap-2">
+			<ul style={{ gridTemplateColumns: 'repeat(5, 1fr)' }} className="grid gap-2">
 				<TechCard
 					logo={
 						<HTML5 className="dark:fill-foreground-dark h-5 group-hover:fill-[#E34F26]" />
@@ -64,12 +64,6 @@ export default function TechStack() {
 						<PostgreSQL className="dark:fill-foreground-dark h-5 group-hover:fill-[#4169E1]" />
 					}
 					title="PostgreSQL"
-				/>
-				<TechCard
-					logo={
-						<Supabase className="dark:fill-foreground-dark h-5 group-hover:fill-[#3FCF8E]" />
-					}
-					title="Supabase"
 				/>
 				<TechCard
 					logo={
