@@ -1,13 +1,13 @@
-import personalFinanceAppLaptopImage from '../assets/images/personal-finance-app-laptop.webp';
-import summonersShopLaptopImage from '../assets/images/summoners-shop-laptop.webp';
-import invoiceAppDarkLaptopImage from '../assets/images/invoice-app-dark-laptop.webp';
-import weatherAppDarkLaptopImage from '../assets/images/weather-app-dark-laptop.webp';
-import multiStepFormLaptopImage from '../assets/images/multi-step-form-laptop.webp';
-import memoryCardGameLaptopImage from '../assets/images/memory-card-game-laptop.webp';
-import cvApplicationLaptopImage from '../assets/images/cv-application-laptop.webp';
-import todoAppDarkLaptopImage from '../assets/images/todo-app-dark-laptop.webp';
-import weatherNowLaptopImage from '../assets/images/weather-now-laptop.webp';
-import audiophileLaptopImage from '../assets/images/audiophile-laptop.webp';
+import messagingAppPreview from '../assets/images/messaging-app-preview.webp';
+import audiophilePreview from '../assets/images/audiophile-preview.webp';
+import personalFinanceAppPreview from '../assets/images/personal-finance-app-preview.webp';
+import invoiceAppPreview from '../assets/images/invoice-app-preview.webp';
+import weatherNowPreview from '../assets/images/weather-now-preview.webp';
+import summonersShopPreview from '../assets/images/summoners-shop-preview.webp';
+import memoryCardGamePreview from '../assets/images/memory-card-game-preview.webp';
+import multiStepFormPreview from '../assets/images/multi-step-form-preview.webp';
+import cvApplicationPreview from '../assets/images/cv-application-preview.webp';
+import todoAppDarkPreview from '../assets/images/todo-app-preview.webp';
 
 interface Image {
 	src: string;
@@ -27,13 +27,39 @@ export interface Project {
 export const projects: Project[] = [
 	{
 		image: {
-			src: audiophileLaptopImage,
-			width: 1280,
-			height: 1000,
+			src: messagingAppPreview,
+			width: 1440,
+			height: 900,
+		},
+		title: 'Messaging App',
+		description:
+			'A full-stack messaging app with group chats, media uploads, and user authentication — built with React, Node.js, Express, and PostgreSQL.',
+		techStack: [
+			'React',
+			'NodeJS',
+			'ExpressJS',
+			'PostgreSQL',
+			'Passport',
+			'Supabase',
+			'Axios',
+			'Tailwind CSS',
+			'TypeScript',
+			'Zustand',
+			'React Router',
+			'Radix UI',
+		],
+		livePreviewLink: 'https://messaging-app-rzgu.onrender.com/',
+		githubLink: 'https://github.com/nofuenterr/messaging-app',
+	},
+	{
+		image: {
+			src: audiophilePreview,
+			width: 1440,
+			height: 900,
 		},
 		title: 'Audiophile E-Commerce App',
 		description:
-			'A multi-page e-commerce website and an all-in-one stop featuring products that fulfills your audio needs.',
+			'A multi-page e-commerce storefront for premium audio products with persistent cart, validated checkout, and responsive design.',
 		techStack: [
 			'React',
 			'Vite',
@@ -49,13 +75,13 @@ export const projects: Project[] = [
 	},
 	{
 		image: {
-			src: personalFinanceAppLaptopImage,
-			width: 1280,
-			height: 1086,
+			src: personalFinanceAppPreview,
+			width: 1440,
+			height: 900,
 		},
 		title: 'Personal Finance App',
 		description:
-			'A personal finance application built to help users track spending, manage savings, and stay on top of recurring bills.',
+			'A personal finance dashboard for tracking transactions, managing budgets, growing savings pots, and monitoring recurring bills.',
 		techStack: [
 			'React',
 			'Vite',
@@ -72,13 +98,13 @@ export const projects: Project[] = [
 	},
 	{
 		image: {
-			src: invoiceAppDarkLaptopImage,
-			width: 1280,
-			height: 1085,
+			src: invoiceAppPreview,
+			width: 1440,
+			height: 900,
 		},
 		title: 'Invoice App',
 		description:
-			'An invoice management application where users can create, edit, view, and manage invoices.',
+			'A responsive invoice management app where users can create, edit, and track invoices — with persistent storage, dark/light themes, and full form validation.',
 		techStack: [
 			'React',
 			'Vite',
@@ -95,13 +121,13 @@ export const projects: Project[] = [
 	},
 	{
 		image: {
-			src: weatherNowLaptopImage,
-			width: 1280,
-			height: 1000,
+			src: weatherNowPreview,
+			width: 1440,
+			height: 900,
 		},
 		title: 'Weather Now - Weather App',
 		description:
-			'A responsive weather app with search functionality, unit conversion, and detailed forecasts using the Open-Meteo API.',
+			'A responsive weather app with city search, 7-day and hourly forecasts, and Imperial/Metric unit toggling — powered by the Open-Meteo API.',
 		techStack: [
 			'React',
 			'Vite',
@@ -118,13 +144,13 @@ export const projects: Project[] = [
 	},
 	{
 		image: {
-			src: summonersShopLaptopImage,
-			width: 1280,
-			height: 1086,
+			src: summonersShopPreview,
+			width: 1440,
+			height: 900,
 		},
 		title: "Summoner's Shop E-Commerce App",
 		description:
-			"An E-commerce website inspired by Riot Game's League of Legends. The products are based on the game's in-game items.",
+			"A League of Legends-inspired e-commerce shop where you can browse, filter, sort, and buy in-game items — powered by Riot's Data Dragon API.",
 		techStack: [
 			'React',
 			'Vite',
@@ -139,26 +165,26 @@ export const projects: Project[] = [
 	},
 	{
 		image: {
-			src: memoryCardGameLaptopImage,
-			width: 1280,
-			height: 1000,
+			src: memoryCardGamePreview,
+			width: 1440,
+			height: 900,
 		},
 		title: 'GOT - Memory Card Game',
 		description:
-			'A memory card game with multiple levels that features characters from the show Game of Thrones.',
+			'A Game of Thrones-themed memory card game — click each character only once, or the cards shuffle and you start over.',
 		techStack: ['React', 'Vite', 'CSS', 'JavaScript', 'HTML', 'API'],
 		livePreviewLink: 'https://memory-card-game-umber-alpha.vercel.app/',
 		githubLink: 'https://github.com/nofuenterr/memory-card-game',
 	},
 	{
 		image: {
-			src: multiStepFormLaptopImage,
-			width: 1280,
-			height: 1000,
+			src: multiStepFormPreview,
+			width: 1440,
+			height: 900,
 		},
 		title: 'Multi-step Form',
 		description:
-			'A multi-step form with persistent data on submit, validation on change, links to each step, and responsiveness.',
+			'A multi-step subscription form with step validation, sidebar navigation, persistent data on submit, and a clean responsive layout.',
 		techStack: [
 			'React',
 			'Vite',
@@ -175,39 +201,26 @@ export const projects: Project[] = [
 	},
 	{
 		image: {
-			src: cvApplicationLaptopImage,
-			width: 1280,
-			height: 1000,
+			src: cvApplicationPreview,
+			width: 1440,
+			height: 900,
 		},
 		title: 'CV Application',
 		description:
-			'A simple website that allows you to enter CV-related information and preview it on a pre-determined template live.',
+			'A live CV builder — fill in your details and preview them instantly on a pre-styled resume template.',
 		techStack: ['React', 'Vite', 'CSS', 'JavaScript', 'HTML'],
 		livePreviewLink: 'https://cv-application-seven-nu.vercel.app/',
 		githubLink: 'https://github.com/nofuenterr/cv-application',
 	},
 	{
 		image: {
-			src: weatherAppDarkLaptopImage,
-			width: 1280,
-			height: 1085,
-		},
-		title: 'Forecaster - Weather App',
-		description:
-			'A weather app that uses the Visual Crossing API. It features toggles between themes and units of measurement.',
-		techStack: ['HTML', 'CSS', 'JavaScript', 'Webpack', 'API'],
-		livePreviewLink: 'https://weather-app-five-eta-68.vercel.app/',
-		githubLink: 'https://github.com/nofuenterr/weather-app',
-	},
-	{
-		image: {
-			src: todoAppDarkLaptopImage,
-			width: 4096,
-			height: 3200,
+			src: todoAppDarkPreview,
+			width: 1440,
+			height: 900,
 		},
 		title: 'Todo App',
 		description:
-			'A simple todo app that lets you create, read, toggle between done and not done, and delete todos.',
+			'A clean todo app with filtering by status, light/dark theme toggle, and persistent data across sessions.',
 		techStack: [
 			'React',
 			'Vite',

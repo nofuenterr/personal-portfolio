@@ -4,6 +4,11 @@ import CSS from './icons/CSS';
 import TypeScript from './icons/TypeScript';
 import TailwindCSS from './icons/TailwindCSS';
 import React from './icons/React';
+import NodeJS from './icons/NodeJS';
+import ExpressJS from './icons/ExpressJS';
+import PostgreSQL from './icons/PostgreSQL';
+import Supabase from './icons/Supabase';
+import Axios from './icons/Axios';
 
 export default function TechStack() {
 	return (
@@ -41,6 +46,42 @@ export default function TechStack() {
 						<React className="dark:fill-foreground-dark h-5 group-hover:fill-[#61DAFB]" />
 					}
 					title="React.js"
+				/>
+				<TechCard
+					logo={
+						<NodeJS className="dark:fill-foreground-dark h-5 group-hover:fill-[#5FA04E]" />
+					}
+					title="Node.js"
+				/>
+				<TechCard
+					logo={
+						<ExpressJS className="dark:fill-foreground-dark h-5 group-hover:fill-[#000000]" />
+					}
+					title="Express.js"
+				/>
+				<TechCard
+					logo={
+						<PostgreSQL className="dark:fill-foreground-dark h-5 group-hover:fill-[#4169E1]" />
+					}
+					title="PostgreSQL"
+				/>
+				<TechCard
+					logo={
+						<Supabase className="dark:fill-foreground-dark h-5 group-hover:fill-[#3FCF8E]" />
+					}
+					title="Supabase"
+				/>
+				<TechCard
+					logo={
+						<Supabase className="dark:fill-foreground-dark h-5 group-hover:fill-[#3FCF8E]" />
+					}
+					title="Supabase"
+				/>
+				<TechCard
+					logo={
+						<Axios className="dark:fill-foreground-dark h-5 group-hover:fill-[#5A29E4]" />
+					}
+					title="Axios"
 				/>
 			</ul>
 		</section>

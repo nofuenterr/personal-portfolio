@@ -37,11 +37,10 @@ export default function Hero() {
 					</p>
 				</div>
 				<p>
-					Frontend Developer who enjoys building interactive websites in React,
-					but is also open to learning other technologies. I started my frontend
-					journey on mid-2025 and am currently trying to get better at
-					developing websites with user experience in mind, building creative UI
-					designs on my own, and the architecture of things.
+					A Frontend Developer who builds responsive, accessible web apps with React and TypeScript. 
+					I started self-studying in mid-2025 and have since shipped a range of projects spanning 
+					UI challenges, full-stack apps, and API integrations. I care about clean code, 
+					thoughtful UX, and continuously improving and adapting.
 				</p>
 				<ul className="flex items-center justify-center gap-2 sm:justify-start">
 					<li>
