@@ -48,7 +48,7 @@ export const projects: Project[] = [
 			'React Router',
 			'Radix UI',
 		],
-		livePreviewLink: 'https://messaging-app-rzgu.onrender.com/',
+		livePreviewLink: 'https://messaging-app-rrn.up.railway.app/',
 		githubLink: 'https://github.com/nofuenterr/messaging-app',
 	},
 	{
