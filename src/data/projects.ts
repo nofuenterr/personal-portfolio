@@ -1,4 +1,5 @@
 import messagingAppPreview from '../assets/images/messaging-app-preview.webp';
+import hotelBookingSystemPreview from '../assets/images/hotel-booking-system-preview.webp';
 import audiophilePreview from '../assets/images/audiophile-preview.webp';
 import personalFinanceAppPreview from '../assets/images/personal-finance-app-preview.webp';
 import invoiceAppPreview from '../assets/images/invoice-app-preview.webp';
@@ -50,6 +51,30 @@ export const projects: Project[] = [
 		],
 		livePreviewLink: 'https://messaging-app-rrn.up.railway.app/',
 		githubLink: 'https://github.com/nofuenterr/messaging-app',
+	},
+	{
+		image: {
+			src: hotelBookingSystemPreview,
+			width: 1440,
+			height: 900,
+		},
+		title: 'Hotel Booking System',
+		description:
+			'A RESTful API for managing hotel bookings, guests, and rooms — with weather integration and a minimal front-end demo.',
+		techStack: [
+			'NodeJS',
+			'ExpressJS',
+			'PostgreSQL',
+			'REST APIs',
+			'Open-Meteo API',
+			'Yup',
+			'Jest',
+			'Axios',
+			'CSS',
+			'JavaScript',
+		],
+		livePreviewLink: '',
+		githubLink: 'https://github.com/nofuenterr/hotel_booking_system',
 	},
 	{
 		image: {
@@ -121,6 +146,27 @@ export const projects: Project[] = [
 	},
 	{
 		image: {
+			src: summonersShopPreview,
+			width: 1440,
+			height: 900,
+		},
+		title: "Summoner's Shop E-Commerce App",
+		description:
+			"A League of Legends-inspired e-commerce shop where you can browse, filter, sort, and buy in-game items — powered by Riot's Data Dragon API.",
+		techStack: [
+			'React',
+			'Vite',
+			'CSS Modules',
+			'JavaScript',
+			'React Router',
+			'HTML',
+			'API',
+		],
+		livePreviewLink: 'https://summoners-shop.vercel.app/',
+		githubLink: 'https://github.com/nofuenterr/league-of-legends-item-shop',
+	},
+	{
+		image: {
 			src: weatherNowPreview,
 			width: 1440,
 			height: 900,
@@ -141,27 +187,6 @@ export const projects: Project[] = [
 		],
 		livePreviewLink: 'https://weather-now-rrn.vercel.app/',
 		githubLink: 'https://github.com/nofuenterr/weather-now',
-	},
-	{
-		image: {
-			src: summonersShopPreview,
-			width: 1440,
-			height: 900,
-		},
-		title: "Summoner's Shop E-Commerce App",
-		description:
-			"A League of Legends-inspired e-commerce shop where you can browse, filter, sort, and buy in-game items — powered by Riot's Data Dragon API.",
-		techStack: [
-			'React',
-			'Vite',
-			'CSS Modules',
-			'JavaScript',
-			'React Router',
-			'HTML',
-			'API',
-		],
-		livePreviewLink: 'https://summoners-shop.vercel.app/',
-		githubLink: 'https://github.com/nofuenterr/league-of-legends-item-shop',
 	},
 	{
 		image: {

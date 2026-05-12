@@ -37,14 +37,16 @@ export default function ProjectCard({
 				})}
 			</ul>
 			<div className="flex items-center gap-2">
-				<a
-					href={livePreviewLink}
-					target="_blank"
-					className="bg-primary-light text-primary-foreground-light dark:bg-primary-dark dark:text-primary-foreground-dark hover:bg-input-dark dark:hover:bg-input-light flex cursor-pointer items-center gap-2 rounded-md px-3 py-1.5 text-sm"
-				>
-					<Globe className="size-4.5" />
-					<span>Website</span>
-				</a>
+				{livePreviewLink ? (
+					<a
+						href={livePreviewLink}
+						target="_blank"
+						className="bg-primary-light text-primary-foreground-light dark:bg-primary-dark dark:text-primary-foreground-dark hover:bg-input-dark dark:hover:bg-input-light flex cursor-pointer items-center gap-2 rounded-md px-3 py-1.5 text-sm"
+					>
+						<Globe className="size-4.5" />
+						<span>Website</span>
+					</a>
+				) : null}
 				{githubLink ? (
 					<a
 						href={githubLink}
