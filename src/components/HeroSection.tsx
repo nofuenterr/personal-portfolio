@@ -37,7 +37,7 @@ export default function Hero() {
 					</p>
 				</div>
 				<p>
-					A Frontend Developer who builds responsive, accessible web apps with React and TypeScript. 
+					A Fullstack Developer who builds responsive, accessible web apps with React, TypeScript and NodeJS. 
 					I started self-studying in mid-2025 and have since shipped a range of projects spanning 
 					UI challenges, full-stack apps, and API integrations. I care about clean code, 
 					thoughtful UX, and continuously improving and adapting.
@@ -48,7 +48,7 @@ export default function Hero() {
 							aria-label="LinkedIn"
 							target="_blank"
 							rel="noopener noreferrer"
-							href="https://www.linkedin.com/in/romel-raphael-nofuente-536207371?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+							href="https://www.linkedin.com/in/rrnofuente"
 						>
 							<LinkedIn className="fill-foreground-light dark:fill-foreground-dark h-6 w-auto hover:fill-[#0284c7] dark:hover:fill-[#bae6fd]" />
 						</a>
