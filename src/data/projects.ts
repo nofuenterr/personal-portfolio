@@ -1,3 +1,4 @@
+import savingsTrackerPreview from '../assets/images/savings-tracker-preview.webp';
 import messagingAppPreview from '../assets/images/messaging-app-preview.webp';
 import hotelBookingSystemPreview from '../assets/images/hotel-booking-system-preview.webp';
 import audiophilePreview from '../assets/images/audiophile-preview.webp';
@@ -26,6 +27,35 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+	{
+		image: {
+			src: savingsTrackerPreview,
+			width: 1440,
+			height: 900,
+		},
+		title: 'Savings Tracker',
+		description:
+			'A full-stack savings tracker with goal management, deposit and withdrawal tracking, dashboard analytics, and authentication, built with React, Node.js, Express, and PostgreSQL.',
+		techStack: [
+			'React',
+			'Vite',
+			'TypeScript',
+			'NodeJS',
+			'ExpressJS',
+			'PostgreSQL',
+			'Tailwind CSS',
+			'TanStack Query',
+			'React Router',
+			'React Hook Form',
+			'Zod',
+			'Radix UI',
+			'JWT',
+			'Passport',
+			'Axios',
+		],
+		livePreviewLink: 'https://savings-tracker-rrn.up.railway.app',
+		githubLink: 'https://github.com/nofuenterr/savings-tracker',
+	},
 	{
 		image: {
 			src: messagingAppPreview,
